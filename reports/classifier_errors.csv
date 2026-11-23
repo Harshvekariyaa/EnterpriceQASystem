@@ -1,0 +1,5 @@
+question,real_label,predicted,probability_in_scope,category
+What is the hybrid work schedule?,1,0,0.487,policy
+What is the hotel budget in Delhi?,1,0,0.415,policy
+What time does orientation start?,1,0,0.475,policy
+How much does a cafeteria meal cost?,1,0,0.417,policy

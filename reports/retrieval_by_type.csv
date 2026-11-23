@@ -1,0 +1,19 @@
+Configuration,Chunk Size,Retriever,Question Type,Questions,Recall@5,MRR
+Experiment 1,80,bm25,keyword,14,1.0,0.907
+Experiment 1,80,bm25,paraphrase,16,0.938,0.823
+Experiment 1,80,bm25,number,10,1.0,0.92
+Experiment 2,80,dense,keyword,14,1.0,0.964
+Experiment 2,80,dense,paraphrase,16,1.0,0.906
+Experiment 2,80,dense,number,10,1.0,1.0
+Experiment 3,80,hybrid,keyword,14,1.0,1.0
+Experiment 3,80,hybrid,paraphrase,16,1.0,0.969
+Experiment 3,80,hybrid,number,10,1.0,1.0
+Experiment 4,160,bm25,keyword,14,1.0,0.929
+Experiment 4,160,bm25,paraphrase,16,1.0,0.849
+Experiment 4,160,bm25,number,10,1.0,0.883
+Experiment 5,160,dense,keyword,14,1.0,0.964
+Experiment 5,160,dense,paraphrase,16,0.938,0.828
+Experiment 5,160,dense,number,10,1.0,0.95
+Experiment 6,160,hybrid,keyword,14,1.0,0.964
+Experiment 6,160,hybrid,paraphrase,16,1.0,0.917
+Experiment 6,160,hybrid,number,10,1.0,0.95

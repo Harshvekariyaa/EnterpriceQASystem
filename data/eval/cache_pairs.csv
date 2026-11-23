@@ -1,0 +1,41 @@
+pair_id,question_a,question_b,label
+P01,How many sick leave days do I get?,How many days of sick leave per year am I entitled to?,1
+P02,By what time must I tell my manager that I am sick?,What is the deadline to inform my manager about sickness?,1
+P03,Within how long after the birth must paternity leave be taken?,When does paternity leave have to be used after a child is born?,1
+P04,What must I use when working remotely to connect to company systems?,Which tool is required to access company systems from home?,1
+P05,How many previous passwords can I not reuse?,How many old passwords am I not allowed to reuse?,1
+P06,After how many minutes of inactivity do laptop screens lock?,How long before my laptop screen locks automatically?,1
+P07,What is the daily limit for meal claims on business duty?,How much can I claim for meals per day on business duty?,1
+P08,Who approves claims between Rs. 5001 and Rs. 25000?,Who has to approve an expense claim of Rs. 5001 to Rs. 25000?,1
+P09,What is the hotel limit per night for international travel?,How much can I spend on a hotel per night when travelling abroad?,1
+P10,What is the per diem for domestic travel?,How much daily allowance do I get for travel within the country?,1
+P11,What rate per kilometre is paid for using a personal car on business?,How much per km is reimbursed when I use my own car for work?,1
+P12,For how long can probation be extended?,What is the maximum extension of the probation period?,1
+P13,How long are employee records kept after they leave the company?,For how many years does the company retain records of ex-employees?,1
+P14,How much internet reimbursement can I get each month?,What is the monthly internet allowance for remote work?,1
+P15,how many sick days,How many sick days?,1
+P16,What time does orientation begin on the first day?,At what time does the first day orientation start?,1
+P17,Within how many days of joining must the security awareness training be completed?,How soon after joining do I have to finish security awareness training?,1
+P18,How often is progress reviewed during a Performance Improvement Plan?,How frequently are PIP progress reviews held?,1
+P19,Is it allowed to work from another country under Work From Anywhere?,Can I work from abroad under the Work From Anywhere policy?,1
+P20,How many days does the Ethics Committee have to respond to a report?,In how many days must the Ethics Committee reply to a reported concern?,1
+P21,What is the notice period during probation?,What is the notice period after confirmation?,0
+P22,Who approves claims up to Rs. 5000?,Who approves claims between Rs. 5001 and Rs. 25000?,0
+P23,What is the daily limit for meal claims on domestic travel?,What is the daily limit for meal claims on international travel?,0
+P24,How many days of sick leave do I get?,How many days of maternity leave do I get?,0
+P25,How many days of paternity leave do I get?,How many days of maternity leave do I get?,0
+P26,What is the hotel limit per night for domestic travel?,What is the hotel limit per night for international travel?,0
+P27,Within how many days must a gift worth Rs. 2000 or more be reported?,Within how many days must a gift worth Rs. 500 or more be reported?,0
+P28,How many days in advance must I apply for annual leave longer than 5 days?,How many days in advance must I apply for annual leave longer than 10 days?,0
+P29,What is the monthly mobile phone claim limit?,What is the daily limit for meal claims?,0
+P30,What are the office attendance rules during probation?,What are the office attendance rules after confirmation?,0
+P31,How many days of annual leave are credited each month?,How many days of casual leave are credited each month?,0
+P32,Who receives 360-degree feedback?,Who approves salary increments?,0
+P33,How long are employee records kept after they leave?,How long are CCTV recordings kept?,0
+P34,Which class can I fly on an international flight longer than 6 hours?,Which class can I fly on an international flight shorter than 6 hours?,0
+P35,How much extra premium must I pay to add a parent to the health insurance?,How much extra premium must I pay to add a spouse to the health insurance?,0
+P36,After how many minutes of inactivity do laptop screens lock?,After how many failed attempts is my account locked?,0
+P37,How quickly does the Security Operations Centre acknowledge an incident report?,How quickly must I report a security incident to the Security Operations Centre?,0
+P38,What is the notice period for interns?,What is the notice period for senior managers?,0
+P39,What is the monthly internet reimbursement?,What is the monthly mobile phone reimbursement?,0
+P40,When is an approved claim paid if it was approved before the 20th of the month?,When is an approved claim paid if it was approved after the 20th of the month?,0

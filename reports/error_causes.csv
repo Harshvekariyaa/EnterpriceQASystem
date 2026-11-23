@@ -1,0 +1,6 @@
+failure_category,questions,out_of
+answered_unanswerable,1,40
+false_refusal,1,40
+empty_answer,21,40
+bad_citations,1,40
+invalid_citation_number,2,40

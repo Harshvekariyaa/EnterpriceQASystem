@@ -1,0 +1,15 @@
+{
+  "file_name": "07_Employee_Onboarding_Guide.pdf",
+  "title": "Employee Onboarding Guide",
+  "doc_id": "NT-HR-007",
+  "department": "Human Resources",
+  "version": "2.0",
+  "effective_date": "01 March 2025",
+  "num_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NovaTech Solutions Pvt. Ltd.\nEmployee Onboarding Guide\n Document ID\nNT-HR-007\nDepartment\nHuman Resources\nVersion\n2.0\nEffective Date\n01 March 2025\n1. Before Day One\nNew joiners receive an offer pack by email 7 days before the joining date. The pack contains the\ndocuments checklist: identity proof, address proof, education certificates, previous employment\nrelieving letter and 2 passport-size photographs. Laptops are shipped to remote joiners 3 days\nbefore they start.\n2. First Day\nOrientation begins at 10:00 AM at the office reception. On day one, IT issues the laptop, company\nemail ID and access card. Every new employee is paired with a buddy who guides them for the first\n30 days.\n3. First 30, 60 and 90 Days\nDuring the first 30 days, employees complete mandatory training on security, the Code of Conduct\nand POSH (Prevention of Sexual Harassment). At 60 days, the manager conducts a feedback\nconversation. At 90 days, a probation review decides confirmation of employment.\n4. Probation\nThe standard probation period is 3 months. It can be extended once by up to 3 additional months if\nperformance expectations are not met. During probation, the notice period is 15 days for both\nsides. After confirmation, the notice period is 60 days for employees and 90 days for managers and\nabove.\n5. Payroll\nSalaries are credited on the last working day of each month. Payslips are available on the HR\nPortal. Employees must submit investment declarations for tax savings by 15 January each year.\n6. Who to Contact\nFor IT problems, contact the IT Helpdesk at helpdesk@novatech.example or extension 4000. For\npayroll queries, contact payroll@novatech.example. For HR questions, write to\nhr@novatech.example.\nDocument Notice\nConfidentiality Notice: This document is the property of NovaTech Solutions Pvt. Ltd. and is\nintended for internal use by employees only. Unauthorised copying, sharing or distribution outside\nthe company is prohibited. For clarifications, contact the People and Culture team at\nhr@novatech.example."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "file_name": "01_Leave_Policy.pdf",
+  "title": "Leave Policy",
+  "doc_id": "NT-HR-001",
+  "department": "Human Resources",
+  "version": "3.2",
+  "effective_date": "01 April 2025",
+  "num_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NovaTech Solutions Pvt. Ltd.\nLeave Policy\n Document ID\nNT-HR-001\nDepartment\nHuman Resources\nVersion\n3.2\nEffective Date\n01 April 2025\n1. Purpose and Scope\nThis policy explains the types of leave available to all full-time employees of NovaTech Solutions. It\napplies to employees in all offices after they have completed onboarding. Interns and contractors\nare covered by their individual agreements.\n2. Annual (Earned) Leave\nEvery full-time employee receives 24 days of paid annual leave per calendar year. Leave is\ncredited at 2 days per month. Employees may carry forward a maximum of 10 unused annual\nleave days to the next year; any balance above 10 days lapses on 31 December. Annual leave of\nmore than 5 consecutive working days must be applied for at least 14 days in advance and\napproved by the reporting manager.\n3. Sick Leave\nEmployees are entitled to 12 days of paid sick leave per year. Sick leave cannot be carried forward\nor encashed. A medical certificate from a registered doctor is required if sick leave exceeds 2\nconsecutive days. Employees must inform their manager before 10:00 AM on the first day of\nsickness.\n4. Casual Leave\nEach employee gets 8 days of casual leave per year for personal matters. A maximum of 3 casual\nleave days can be taken together at one time. Casual leave cannot be combined with sick leave.\n5. Maternity, Paternity and Parental Leave\nFemale employees are entitled to 26 weeks of paid maternity leave for the first two children. Male\nemployees are entitled to 10 working days of paid paternity leave, which must be taken within 3\nmonths of the child's birth. Adoption leave of 12 weeks is available to the primary caregiver.\n6. Bereavement and Marriage Leave\nEmployees get 5 days of paid bereavement leave on the death of an immediate family member\n(parent, spouse, child or sibling). Employees receive 5 days of paid marriage leave for their own\nmarriage, applied at least 30 days in advance.\n7. Public Holidays\nNovaTech observes 12 public holidays each year. The list is published on the HR portal in the first\nweek of January. Employees may also choose 2 optional (floating) holidays from a published list.\n8. Leave Without Pay"
+    },
+    {
+      "page_number": 2,
+      "text": "Leave without pay (LWP) may be approved by the department head for up to 30 days in a year\nwhen all paid leave has been used. LWP beyond 30 days requires approval from the HR Director.\nDocument Notice\nConfidentiality Notice: This document is the property of NovaTech Solutions Pvt. Ltd. and is\nintended for internal use by employees only. Unauthorised copying, sharing or distribution outside\nthe company is prohibited. For clarifications, contact the People and Culture team at\nhr@novatech.example."
+    }
+  ]
+}

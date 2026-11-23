@@ -1,0 +1,41 @@
+question_id,question,source_file,gold_phrase,question_type
+Q01,How many days of paid annual leave do employees get each year?,01_Leave_Policy.pdf,24 days of paid annual leave per calendar year,keyword
+Q02,What is the maximum number of unused leave days I can carry forward?,01_Leave_Policy.pdf,maximum of 10 unused annual leave days,number
+Q03,Do I need a doctor's note if I am ill for three days?,01_Leave_Policy.pdf,medical certificate from a registered doctor is required,paraphrase
+Q04,How long is maternity leave?,01_Leave_Policy.pdf,26 weeks of paid maternity leave,keyword
+Q05,Which days am I required to be in the office?,02_Remote_Work_Policy.pdf,Wednesday and Thursday are the mandatory office days,paraphrase
+Q06,How many days per year can I work from another city?,02_Remote_Work_Policy.pdf,up to 20 days per calendar year under the Work From Anywhere programme,paraphrase
+Q07,How much is the home office setup allowance?,02_Remote_Work_Policy.pdf,"home office setup allowance of Rs. 15,000",number
+Q08,What are the core working hours?,02_Remote_Work_Policy.pdf,Core hours are 11:00 AM to 4:00 PM India Standard Time,keyword
+Q09,How long must a password be?,03_IT_Security_Policy.pdf,at least 12 characters long,keyword
+Q10,Can I get my login codes by text message?,03_IT_Security_Policy.pdf,SMS-based codes are not allowed,paraphrase
+Q11,How fast must I report a lost laptop?,03_IT_Security_Policy.pdf,reported to the IT Helpdesk within 2 hours,paraphrase
+Q12,How often do passwords have to be changed?,03_IT_Security_Policy.pdf,changed every 90 days,keyword
+Q13,Within how many days must I submit an expense claim?,04_Expense_Reimbursement_Policy.pdf,within 30 days of the expense date,paraphrase
+Q14,Who approves claims of more than 25000 rupees?,04_Expense_Reimbursement_Policy.pdf,need approval from the Finance Controller,number
+Q15,What is the yearly learning budget?,04_Expense_Reimbursement_Policy.pdf,"annual learning budget of Rs. 30,000",number
+Q16,Can I claim alcohol with a client dinner?,04_Expense_Reimbursement_Policy.pdf,Alcohol is not reimbursable under any circumstances,paraphrase
+Q17,How many days before a foreign trip must I raise the travel request?,05_Travel_Policy.pdf,21 days before international travel,paraphrase
+Q18,What is the hotel limit per night in Mumbai?,05_Travel_Policy.pdf,"Tier-1 cities (Mumbai, Delhi, Bengaluru",keyword
+Q19,How much does the company pay per kilometre if I use my own car?,05_Travel_Policy.pdf,per kilometre for cars,number
+Q20,Can I fly business class?,05_Travel_Policy.pdf,Business class is allowed only with approval from the CEO,paraphrase
+Q21,How long does the ICC have to finish a harassment inquiry?,06_Code_of_Conduct.pdf,within 90 days of receiving a complaint,keyword
+Q22,What is the maximum value of a gift I can accept from a vendor?,06_Code_of_Conduct.pdf,may accept gifts from vendors or clients only if the value is below,number
+Q23,How can I report unethical behaviour without giving my name?,06_Code_of_Conduct.pdf,Reports can be made anonymously,paraphrase
+Q24,What are NovaTech's core values?,06_Code_of_Conduct.pdf,"Integrity, Customer Focus, Ownership and Respect",keyword
+Q25,What is the notice period after confirmation for a regular employee?,07_Employee_Onboarding_Guide.pdf,notice period is 60 days for employees,number
+Q26,Who do I contact for payroll questions?,07_Employee_Onboarding_Guide.pdf,payroll@novatech.example,keyword
+Q27,How long is the probation period?,07_Employee_Onboarding_Guide.pdf,standard probation period is 3 months,keyword
+Q28,When are salaries credited?,07_Employee_Onboarding_Guide.pdf,last working day of each month,paraphrase
+Q29,What increment does a rating of 4 give?,08_Performance_Review_Policy.pdf,a rating of 4 gives 12 percent,number
+Q30,How long is a performance improvement plan?,08_Performance_Review_Policy.pdf,Performance Improvement Plan (PIP) of 60 days,keyword
+Q31,How many months must I be in my role to be eligible for promotion?,08_Performance_Review_Policy.pdf,at least 18 months in the current role,paraphrase
+Q32,How often are performance reviews held?,08_Performance_Review_Policy.pdf,two review cycles each year,paraphrase
+Q33,How long is customer data kept after the contract ends?,09_Data_Privacy_Policy.pdf,retained for 5 years after the end of the contract,paraphrase
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,09_Data_Privacy_Policy.pdf,within 24 hours of discovery,keyword
+Q35,How long is CCTV footage stored?,09_Data_Privacy_Policy.pdf,CCTV footage is stored for 30 days,keyword
+Q36,Who handles requests to delete my personal data?,09_Data_Privacy_Policy.pdf,privacy@novatech.example,keyword
+Q37,How much is the health insurance cover?,10_Employee_Benefits_Guide.pdf,group health insurance policy with a sum insured of,number
+Q38,What is the referral bonus for a regular hire?,10_Employee_Benefits_Guide.pdf,receive a referral bonus of,number
+Q39,How much does the company contribute to provident fund?,10_Employee_Benefits_Guide.pdf,contribute 12 percent of basic salary to the Provident Fund,paraphrase
+Q40,Is there a counselling service for employees?,10_Employee_Benefits_Guide.pdf,free confidential counselling,paraphrase

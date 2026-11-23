@@ -1,0 +1,19 @@
+{
+  "file_name": "03_IT_Security_Policy.pdf",
+  "title": "Information Technology Security Policy",
+  "doc_id": "NT-IT-003",
+  "department": "Information Technology",
+  "version": "4.0",
+  "effective_date": "15 January 2025",
+  "num_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NovaTech Solutions Pvt. Ltd.\nInformation Technology Security Policy\n Document ID\nNT-IT-003\nDepartment\nInformation Technology\nVersion\n4.0\nEffective Date\n15 January 2025\n1. Passwords\nPasswords must be at least 12 characters long and include uppercase letters, lowercase letters,\nnumbers and one special character. Passwords must be changed every 90 days. The last 5\npasswords cannot be reused. Employees must never share passwords, even with IT staff.\n2. Multi-Factor Authentication\nMulti-factor authentication (MFA) is mandatory for email, VPN, the code repository and the cloud\nconsole. The approved MFA method is the NovaTech Authenticator app. SMS-based codes are\nnot allowed.\n3. Device Security\nAll company laptops have full-disk encryption enabled. Screens lock automatically after 5 minutes\nof inactivity. USB storage devices are blocked by default; exceptions need written approval from\nthe IT Security team. Lost or stolen devices must be reported to the IT Helpdesk within 2 hours.\n4. Incident Reporting\nAny suspected security incident, such as a phishing email or malware, must be reported to\nsecurity@novatech.example immediately. The Security Operations Centre will acknowledge\nreports within 30 minutes. Critical incidents are resolved or escalated within 4 hours.\n5. Software Installation\nOnly software from the approved software catalogue may be installed. Requests for new software\nare raised through the IT Service Portal and are reviewed within 3 working days.\n6. Data Classification\nCompany data is classified into four levels: Public, Internal, Confidential and Restricted. Restricted\ndata, such as customer financial records, must never be stored on personal devices or personal\ncloud storage.\n7. Security Awareness Training\nEvery employee must complete the annual security awareness training within 30 days of joining\nand once every year after that. Employees who fail the phishing simulation test twice must repeat\nthe training.\nDocument Notice"
+    },
+    {
+      "page_number": 2,
+      "text": "Confidentiality Notice: This document is the property of NovaTech Solutions Pvt. Ltd. and is\nintended for internal use by employees only. Unauthorised copying, sharing or distribution outside\nthe company is prohibited. For clarifications, contact the People and Culture team at\nhr@novatech.example."
+    }
+  ]
+}

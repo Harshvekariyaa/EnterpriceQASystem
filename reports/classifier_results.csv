@@ -1,0 +1,9 @@
+model,split,class,precision,recall,f1,support,accuracy,macro_f1
+baseline_logreg,validation,in_scope,0.824,0.667,0.737,21,0.744,0.743
+baseline_logreg,validation,out_of_scope,0.682,0.833,0.75,18,0.744,0.743
+baseline_logreg,test,in_scope,0.944,0.81,0.872,21,0.872,0.872
+baseline_logreg,test,out_of_scope,0.81,0.944,0.872,18,0.872,0.872
+finetuned_minilm,validation,in_scope,0.87,0.952,0.909,21,0.897,0.896
+finetuned_minilm,validation,out_of_scope,0.938,0.833,0.882,18,0.897,0.896
+finetuned_minilm,test,in_scope,1.0,0.81,0.895,21,0.897,0.897
+finetuned_minilm,test,out_of_scope,0.818,1.0,0.9,18,0.897,0.897

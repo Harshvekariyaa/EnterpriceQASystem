@@ -1,0 +1,15 @@
+{
+  "file_name": "09_Data_Privacy_Policy.pdf",
+  "title": "Data Privacy and Protection Policy",
+  "doc_id": "NT-LEG-009",
+  "department": "Legal and Compliance",
+  "version": "2.2",
+  "effective_date": "01 February 2025",
+  "num_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NovaTech Solutions Pvt. Ltd.\nData Privacy and Protection Policy\n Document ID\nNT-LEG-009\nDepartment\nLegal and Compliance\nVersion\n2.2\nEffective Date\n01 February 2025\n1. Purpose\nThis policy explains how NovaTech collects, uses, stores and protects personal data of customers\nand employees, in line with India's Digital Personal Data Protection Act, 2023.\n2. Data Collection Principles\nNovaTech collects only the personal data that is necessary for a stated purpose and obtains\nconsent before collection. Personal data is never sold to third parties.\n3. Data Retention\nCustomer personal data is retained for 5 years after the end of the contract and then securely\ndeleted. Employee records are retained for 7 years after an employee leaves. Recruitment data of\nunsuccessful candidates is deleted after 12 months. CCTV footage is stored for 30 days.\n4. Data Subject Requests\nCustomers and employees can request access to, correction of, or deletion of their personal data\nby writing to privacy@novatech.example. The Data Protection Officer responds to all requests\nwithin 30 days.\n5. Data Breach Response\nIf a personal data breach occurs, the Data Protection Officer must be informed within 24 hours of\ndiscovery. Affected individuals and the Data Protection Board of India are notified within 72 hours\nwhen the breach is likely to cause harm.\n6. Third-Party Vendors\nVendors that process personal data on NovaTech's behalf must sign a Data Processing\nAgreement and pass a security assessment before they are onboarded. Vendors are re-assessed\nevery 12 months.\nDocument Notice\nConfidentiality Notice: This document is the property of NovaTech Solutions Pvt. Ltd. and is\nintended for internal use by employees only. Unauthorised copying, sharing or distribution outside\nthe company is prohibited. For clarifications, contact the People and Culture team at\nhr@novatech.example."
+    }
+  ]
+}

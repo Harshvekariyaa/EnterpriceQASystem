@@ -1,0 +1,265 @@
+question,label,group_id,category,split
+How many sick days am I allowed in a year?,1,1,policy,train
+What is the yearly sick leave entitlement?,1,1,policy,train
+How many paid days off can I take when I am unwell?,1,1,policy,train
+How many days of leave can new fathers take?,1,2,policy,train
+What is the paternity leave policy?,1,2,policy,train
+Am I entitled to time off after my wife has a baby?,1,2,policy,train
+How many casual leave days are there?,1,3,policy,test
+Can I take 5 casual leave days in a row?,1,3,policy,test
+What is casual leave meant for?,1,3,policy,test
+What happens to my unused annual leave at year end?,1,4,policy,train
+Does annual leave lapse on December 31?,1,4,policy,train
+Can I carry over my earned leave to next year?,1,4,policy,train
+How many days off do I get when a parent passes away?,1,5,policy,train
+Is there leave for my own wedding?,1,5,policy,train
+What is the bereavement leave entitlement?,1,5,policy,train
+How many public holidays does NovaTech observe?,1,6,policy,validation
+Where can I find the holiday list?,1,6,policy,validation
+Are there optional holidays I can choose?,1,6,policy,validation
+How many days a week must I come to the office?,1,7,policy,test
+Can I work from home on Fridays?,1,7,policy,test
+What is the hybrid work schedule?,1,7,policy,test
+Can I work from a different country for a month?,1,8,policy,validation
+What is the Work From Anywhere programme?,1,8,policy,validation
+How do I get approval to work from my hometown?,1,8,policy,validation
+Does the company pay for my internet bill?,1,9,policy,train
+Is there money to buy an office chair for home?,1,9,policy,train
+How often can I claim the home office allowance?,1,9,policy,train
+Can probationers work remotely?,1,10,policy,train
+I am new; can I work from home during probation?,1,10,policy,train
+Who is allowed to be fully remote?,1,10,policy,train
+What are the password complexity requirements?,1,11,policy,train
+Can I reuse an old password?,1,11,policy,train
+How frequently must I update my password?,1,11,policy,train
+Which authenticator app does the company use?,1,12,policy,train
+Is multi-factor authentication mandatory for email?,1,12,policy,train
+Do I need two-step verification for the VPN?,1,12,policy,train
+Can I plug a USB drive into my work laptop?,1,13,policy,train
+What should I do if my laptop is stolen?,1,13,policy,train
+How long before my screen locks automatically?,1,13,policy,train
+Who do I tell if I get a phishing email?,1,14,policy,train
+How quickly does the security team respond to reports?,1,14,policy,train
+Where do I report malware on my machine?,1,14,policy,train
+How do I request new software?,1,15,policy,train
+Can I install my own apps on the company laptop?,1,15,policy,train
+How long does software approval take?,1,15,policy,train
+What are the data classification levels?,1,16,policy,train
+When must I finish the security awareness training?,1,16,policy,train
+Can I save restricted customer data on my personal cloud?,1,16,policy,train
+Who approves expenses above 5000 rupees?,1,17,policy,test
+What is the approval limit for my manager?,1,17,policy,test
+Which expense claims go to the department head?,1,17,policy,test
+What is the daily meal allowance on business trips?,1,18,policy,train
+How much can I spend on client entertainment per person?,1,18,policy,train
+Are drinks reimbursed on client dinners?,1,18,policy,train
+How much is the learning allowance for courses?,1,19,policy,validation
+Do I have to repay my certification if I resign?,1,19,policy,validation
+Can I use company money to buy technical books?,1,19,policy,validation
+When will my approved claim be paid?,1,20,policy,train
+Is my mobile phone bill reimbursed?,1,20,policy,train
+How are expense reimbursements paid out?,1,20,policy,train
+How early should I request domestic travel?,1,21,policy,train
+Where do I book business flights?,1,21,policy,train
+Do I need approval for last-minute bookings?,1,21,policy,train
+Which flight class am I entitled to?,1,22,policy,train
+When can I fly premium economy?,1,22,policy,train
+What class of train travel is allowed?,1,22,policy,train
+What is the hotel budget in Delhi?,1,23,policy,test
+How much daily allowance do I get for international travel?,1,23,policy,test
+What is the nightly hotel cap abroad?,1,23,policy,test
+How much per km is paid for using a two-wheeler?,1,24,policy,validation
+Is there insurance for overseas trips?,1,24,policy,validation
+Where do I download my travel insurance certificate?,1,24,policy,validation
+What are the company's core values?,1,25,policy,validation
+Who handles sexual harassment complaints?,1,25,policy,validation
+What is the rule about retaliation for complaints?,1,25,policy,validation
+Can I take a second job?,1,26,policy,train
+What should I do with a gift from a client?,1,26,policy,train
+Can I accept gift cards from vendors?,1,26,policy,train
+How do I report misconduct confidentially?,1,27,policy,train
+Is there an ethics hotline?,1,27,policy,train
+How quickly does the ethics committee respond?,1,27,policy,train
+What happens if I violate the code of conduct?,1,28,policy,train
+What disciplinary actions are possible?,1,28,policy,train
+Could I be fired for breaking the code?,1,28,policy,train
+What documents do I bring on joining day?,1,29,policy,train
+When do new joiners receive the offer pack?,1,29,policy,train
+When is a laptop shipped to remote joiners?,1,29,policy,train
+What time does orientation start?,1,30,policy,test
+Will I get a buddy when I join?,1,30,policy,test
+What do I receive on my first day?,1,30,policy,test
+Can probation be extended?,1,31,policy,train
+What is the notice period for managers?,1,31,policy,train
+What is the notice period during probation?,1,31,policy,train
+Where can I download my payslip?,1,32,policy,train
+By when must I submit investment declarations?,1,32,policy,train
+On which day is salary credited?,1,32,policy,train
+What does a rating of 5 mean?,1,33,policy,validation
+How are performance ratings defined?,1,33,policy,validation
+What is the scale used for performance reviews?,1,33,policy,validation
+What increment will I get with a rating of 3?,1,34,policy,train
+Are employees with low ratings eligible for a raise?,1,34,policy,train
+When do salary increments take effect?,1,34,policy,train
+What happens if I am put on a PIP?,1,35,policy,validation
+Who receives 360-degree feedback?,1,35,policy,validation
+How often are PIP progress reviews held?,1,35,policy,validation
+What are the promotion eligibility rules?,1,36,policy,train
+How long must I stay in a role before promotion?,1,36,policy,train
+When are promotions considered?,1,36,policy,train
+How long are employee records kept after leaving?,1,37,policy,train
+How long is recruitment data of rejected candidates retained?,1,37,policy,train
+What is the data retention period for customers?,1,37,policy,train
+How do I ask for my personal data to be deleted?,1,38,policy,train
+Who is the Data Protection Officer?,1,38,policy,train
+How long does the company take to respond to a data request?,1,38,policy,train
+Who must be told when a data breach happens?,1,39,policy,test
+Within what time are affected people notified of a breach?,1,39,policy,test
+Do vendors need to sign a data processing agreement?,1,39,policy,test
+Can I add my parents to the health insurance?,1,40,policy,train
+Who is covered by the group health policy?,1,40,policy,train
+How much extra premium is charged for each parent?,1,40,policy,train
+How much life insurance cover do I get?,1,41,policy,train
+What is the PF contribution percentage?,1,41,policy,train
+After how many years is gratuity payable?,1,41,policy,train
+What is the yearly wellness allowance for?,1,42,policy,train
+Is a free health check-up available?,1,42,policy,train
+Does the company provide counselling support?,1,42,policy,train
+How much does a cafeteria meal cost?,1,43,policy,test
+Is a cab provided for late shifts?,1,43,policy,test
+What cash gift is given for 10 years of service?,1,43,policy,test
+How much is the referral bonus for managers?,1,44,policy,train
+When do I receive the referral bonus?,1,44,policy,train
+What are the rules for employee referrals?,1,44,policy,train
+What is the capital of Australia?,0,45,general,test
+Which city is the capital of Japan?,0,45,general,test
+Name the capital of Canada.,0,45,general,test
+Who wrote Romeo and Juliet?,0,46,general,train
+Who is the author of Pride and Prejudice?,0,46,general,train
+Which author created Sherlock Holmes?,0,46,general,train
+How tall is Mount Everest?,0,47,general,train
+What is the longest river in the world?,0,47,general,train
+Which is the largest ocean on Earth?,0,47,general,train
+How do plants make food from sunlight?,0,48,general,test
+What is the process of photosynthesis?,0,48,general,test
+Why are leaves green?,0,48,general,test
+Who was the first prime minister of India?,0,49,general,validation
+When did India become independent?,0,49,general,validation
+Who led the Salt March?,0,49,general,validation
+What is the speed of light?,0,50,general,train
+How fast does light travel?,0,50,general,train
+What is the boiling point of water in Fahrenheit?,0,50,general,train
+Who won the last football world cup?,0,51,general,train
+Which country has won the most Olympic gold medals?,0,51,general,train
+Who is the top scorer in IPL history?,0,51,general,train
+When is the next cricket match of India?,0,52,general,validation
+How many players are in a basketball team?,0,52,general,validation
+What are the rules of tennis scoring?,0,52,general,validation
+How do I make paneer butter masala?,0,53,general,validation
+What is the recipe for chocolate brownies?,0,53,general,validation
+How long should I boil pasta?,0,53,general,validation
+How can I make fluffy pancakes?,0,54,general,train
+What is the best way to cook rice?,0,54,general,train
+How do I prepare masala chai?,0,54,general,train
+How do I reverse a string in Python?,0,55,general,train
+How do I sort a list in JavaScript?,0,55,general,train
+What is a Python decorator?,0,55,general,train
+How do I fix a null pointer exception in Java?,0,56,general,train
+What is the difference between SQL and NoSQL?,0,56,general,train
+How do I centre a div in CSS?,0,56,general,train
+What is a neural network?,0,57,general,train
+Explain gradient descent.,0,57,general,train
+What is the difference between AI and machine learning?,0,57,general,train
+How does blockchain work?,0,58,general,train
+What is cloud computing?,0,58,general,train
+Explain how the internet works.,0,58,general,train
+Should I invest in gold or property?,0,59,general,train
+How does compound interest work?,0,59,general,train
+Which mutual fund gives the best returns?,0,59,general,train
+What is the current price of gold?,0,60,general,train
+What is the dollar to rupee rate today?,0,60,general,train
+How is the stock market doing today?,0,60,general,train
+How can I lose weight quickly?,0,61,general,train
+What are the symptoms of the flu?,0,61,general,train
+How many hours of sleep do adults need?,0,61,general,train
+What exercises strengthen the back?,0,62,general,train
+Is turmeric good for inflammation?,0,62,general,train
+How do I lower blood pressure naturally?,0,62,general,train
+What are the best places to visit in Goa?,0,63,general,train
+Which is the cheapest month to fly to Paris?,0,63,general,train
+Do I need a visa for Thailand?,0,63,general,train
+What is the weather like in Delhi in July?,0,64,general,train
+Will it rain in Mumbai tomorrow?,0,64,general,train
+What is the temperature in Surat today?,0,64,general,train
+Who directed the movie Inception?,0,65,general,test
+What are the best web series to watch?,0,65,general,test
+Recommend a good book to read.,0,65,general,test
+Tell me a funny joke.,0,66,general,train
+Can you sing a song?,0,66,general,train
+Tell me an interesting fact.,0,66,general,train
+How are you today?,0,67,general,train
+What is your name?,0,67,general,train
+Who created you?,0,67,general,train
+Which laptop should I buy for gaming?,0,68,general,test
+What is the best phone under 20000 rupees?,0,68,general,test
+How do I choose a good pair of running shoes?,0,68,general,test
+How do I learn guitar quickly?,0,69,general,validation
+What is the best way to learn French?,0,69,general,validation
+How can I improve my English speaking?,0,69,general,validation
+How do I apply for a passport?,0,70,general,train
+How do I renew my driving licence?,0,70,general,train
+How can I link Aadhaar with PAN?,0,70,general,train
+How do I write a good resume?,0,71,general,train
+What are common interview questions?,0,71,general,train
+How do I prepare for a job interview?,0,71,general,train
+What is the meaning of the word ephemeral?,0,72,general,train
+Translate good morning into Spanish.,0,72,general,train
+What is the plural of cactus?,0,72,general,train
+Solve 15 multiplied by 12.,0,73,general,train
+What is the square root of 144?,0,73,general,train
+What is 20 percent of 350?,0,73,general,train
+What is the time in London now?,0,74,general,train
+What is today's date?,0,74,general,train
+How many days are there in a leap year?,0,74,general,train
+What is the leave policy at Microsoft?,0,75,near_miss,validation
+How many sick days does Amazon give its employees?,0,75,near_miss,validation
+What is the maternity leave policy at Infosys?,0,75,near_miss,validation
+What is TCS's work from home policy?,0,76,near_miss,train
+Does Google allow remote work?,0,76,near_miss,train
+What is Wipro's hybrid policy?,0,76,near_miss,train
+Who founded NovaTech Solutions?,0,77,near_miss,validation
+Who is the managing director of NovaTech?,0,77,near_miss,validation
+Who is the head of HR at NovaTech?,0,77,near_miss,validation
+Where is the NovaTech headquarters?,0,78,near_miss,train
+What was NovaTech's revenue last year?,0,78,near_miss,train
+How many offices does NovaTech have?,0,78,near_miss,train
+What is the salary band for a senior developer at NovaTech?,0,79,near_miss,test
+How much is the joining bonus at NovaTech?,0,79,near_miss,test
+What is the CTC of a fresher at NovaTech?,0,79,near_miss,test
+Does NovaTech provide free parking?,0,80,near_miss,train
+Is there a gym in the NovaTech office?,0,80,near_miss,train
+Does NovaTech give employees a free laptop bag?,0,80,near_miss,train
+Are jeans allowed at NovaTech on weekdays?,0,81,near_miss,train
+Is there a formal dress code for client meetings?,0,81,near_miss,train
+Can I wear casual clothes on Fridays?,0,81,near_miss,train
+Are NovaTech employees given ESOPs?,0,82,near_miss,train
+Can employees buy company shares?,0,82,near_miss,train
+Is there a stock purchase plan at NovaTech?,0,82,near_miss,train
+What is NovaTech's policy on pets in the office?,0,83,near_miss,train
+Can I bring my dog to work?,0,83,near_miss,train
+What is the sabbatical policy?,0,83,near_miss,train
+What products does NovaTech sell?,0,84,near_miss,test
+Which clients does NovaTech work with?,0,84,near_miss,test
+What technology stack does NovaTech use?,0,84,near_miss,test
+What time does the cafeteria open?,0,85,near_miss,train
+Which dishes are served in the cafeteria?,0,85,near_miss,train
+Is the cafeteria open on weekends?,0,85,near_miss,train
+How do I apply for a US business visa?,0,86,near_miss,train
+What are the working hours at the Bengaluru office?,0,86,near_miss,train
+How do I reach the Pune office from the airport?,0,86,near_miss,train
+What is the legal retirement age in India?,0,87,near_miss,train
+What does the labour law say about overtime pay?,0,87,near_miss,train
+What is the minimum wage in Gujarat?,0,87,near_miss,train
+How do I reset my Wi-Fi router?,0,88,near_miss,train
+How do I fix a blue screen error on Windows?,0,88,near_miss,train
+What is the Wi-Fi password in the office?,0,88,near_miss,train

@@ -1,0 +1,19 @@
+{
+  "file_name": "10_Employee_Benefits_Guide.pdf",
+  "title": "Employee Benefits Guide",
+  "doc_id": "NT-HR-010",
+  "department": "Human Resources",
+  "version": "3.0",
+  "effective_date": "01 April 2025",
+  "num_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NovaTech Solutions Pvt. Ltd.\nEmployee Benefits Guide\n Document ID\nNT-HR-010\nDepartment\nHuman Resources\nVersion\n3.0\nEffective Date\n01 April 2025\n1. Health Insurance\nAll employees are covered by a group health insurance policy with a sum insured of Rs. 5,00,000\nper family. The policy covers the employee, spouse, up to 2 children and dependent parents.\nEmployee and spouse coverage is fully paid by NovaTech. Parents can be added by paying an\nadditional premium of Rs. 8,000 per year per parent.\n2. Life and Accident Insurance\nEvery employee is covered by group term life insurance equal to 4 times the annual salary.\nAccidental death and disability cover of Rs. 10,00,000 is also provided at no cost.\n3. Provident Fund and Gratuity\nBoth the employee and NovaTech contribute 12 percent of basic salary to the Provident Fund\nevery month. Gratuity is payable after 5 years of continuous service, as per the Payment of\nGratuity Act.\n4. Wellness Programme\nEach employee receives a yearly wellness allowance of Rs. 12,000 that can be used for gym\nmembership, yoga classes or health check-ups. A free annual health check-up is provided to\nemployees above 35 years of age. The Employee Assistance Programme offers free confidential\ncounselling, available 24 hours a day.\n5. Meal and Transport\nThe office cafeteria offers subsidised meals at Rs. 50 per meal. Employees who work late shifts\nafter 8:00 PM are provided cab facility to their home within a 25 km radius.\n6. Referral Bonus\nEmployees who refer a candidate who is hired and completes 6 months receive a referral bonus of\nRs. 25,000. For senior roles at Manager level and above, the bonus is Rs. 50,000.\n7. Long Service Awards\nNovaTech recognises employees on completing 5, 10 and 15 years of service with an award and a\ncash gift of Rs. 10,000, Rs. 25,000 and Rs. 50,000 respectively.\nDocument Notice\nConfidentiality Notice: This document is the property of NovaTech Solutions Pvt. Ltd. and is\nintended for internal use by employees only. Unauthorised copying, sharing or distribution outside"
+    },
+    {
+      "page_number": 2,
+      "text": "the company is prohibited. For clarifications, contact the People and Culture team at\nhr@novatech.example."
+    }
+  ]
+}

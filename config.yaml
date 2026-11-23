@@ -1,0 +1,70 @@
+project:
+  name: "NovaTech Enterprise Knowledge Q&A"
+  kb_version: "v2"          # change when PDFs change; used to invalidate cache
+  random_seed: 42
+
+paths:
+  pdf_dir: "data/pdfs"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  eval_dir: "data/eval"
+  db_dir: "data/db"
+  sqlite_path: "data/db/rag.sqlite"
+  chroma_dir: "data/db/chroma"
+  models_dir: "models"
+  reports_dir: "reports"
+
+ingestion:
+  chunk_sizes_words: [80, 160]   # the two sizes we compare in experiments
+  chunk_overlap_words: 15
+  default_chunk_size: 80         # may change after experiments (Step 7)
+
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 32
+
+retrieval:
+  top_k: 5
+  rrf_k: 60                     # constant used in hybrid (Reciprocal Rank Fusion)
+  best_retriever: "hybrid"      # change this after Step 7 shows the winner
+
+llm:
+  provider: "ollama"
+  model: "llama3.2:1b"           # use llama3.2:1b if your laptop is weak
+  base_url: "http://localhost:11434"
+  temperature: 0.0               # 0 = most stable answers
+  timeout_seconds: 120
+  max_tokens: 300 
+
+rag:
+  max_context_chunks: 4
+  min_similarity: 0.25           # placeholder, tuned in Step 8
+  use_classifier: true
+
+cache:
+  semantic_threshold: 0.90       # placeholder, chosen by experiment in Step 11
+logging:
+  level: "INFO"
+  dir: "logs"
+  file_name: "app.log"
+  
+classifier:
+  model_dir: "models/scope_classifier"
+  threshold: 0.5                 # a question is IN-SCOPE if its probability >= this
+  cv_folds: 5                    # folds used by GridSearchCV
+  baseline_grid:                 # GridSearchCV tries every combination
+    C: [0.01, 0.1, 1.0, 10.0, 100.0]
+    class_weight: [null, "balanced"]
+  finetune_grid:                 # used only with --grid-finetune
+    learning_rate: [0.00002, 0.00005, 0.0001]
+    batch_size: [8, 16]
+  finetune:
+    base_model: "sentence-transformers/all-MiniLM-L6-v2"
+    epochs: 5
+    batch_size: 16
+    learning_rate: 0.00005
+    max_length: 64
+
+judge:
+  model: "llama3.2:3b"           # the model that grades the answers (you may try another one)
+  max_tokens: 8      

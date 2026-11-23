@@ -1,0 +1,33 @@
+flowchart TB
+    subgraph OFF["1. Ingestion (offline, run_ingest.py)"]
+        direction LR
+        P[10 PDFs] --> R[pypdf reader<br/>text, page, metadata]
+        R --> C[Cleaner]
+        C --> K[Chunker<br/>80 and 160 words]
+        K --> D[Dedup<br/>SHA-256 chunk_id]
+        D --> E[MiniLM embeddings]
+    end
+
+    subgraph DB["2. Storage"]
+        direction LR
+        SQ[(SQLite<br/>documents, chunks,<br/>cache, eval_runs)]
+        CH[(ChromaDB<br/>chunks_80, chunks_160)]
+    end
+
+    subgraph ON["3. Answering (online)"]
+        direction LR
+        UI[Streamlit UI] --> API[FastAPI /ask]
+        API --> CA[Exact cache,<br/>then semantic cache]
+        CA --> G1[Scope classifier]
+        G1 --> G2[Similarity gate]
+        G2 --> HY[Hybrid retrieval<br/>BM25 + dense, RRF]
+        HY --> LLM[Ollama LLM]
+        LLM --> CP[Citation parser]
+        CP --> OUT[Answer + citations<br/>or refusal]
+    end
+
+    D --> SQ
+    E --> CH
+    SQ --> HY
+    CH --> HY
+    CA <--> SQ

@@ -1,0 +1,41 @@
+question_id,question,expected_answer,source_file,supporting_passage,answerable
+A01,How many days of annual leave are credited each month?,2 days per month (24 days per year).,01_Leave_Policy.pdf,Leave is credited at 2 days per month.,yes
+A02,How many days in advance must I apply for annual leave longer than 5 working days?,"At least 14 days in advance, with the reporting manager's approval.",01_Leave_Policy.pdf,Annual leave of more than 5 consecutive working days must be applied for at least 14 days in advance and approved by the reporting manager.,yes
+A03,By what time must I tell my manager that I am sick?,Before 10:00 AM on the first day of sickness.,01_Leave_Policy.pdf,Employees must inform their manager before 10:00 AM on the first day of sickness.,yes
+A04,Within how long after the birth must paternity leave be taken?,Within 3 months of the child's birth.,01_Leave_Policy.pdf,which must be taken within 3 months of the child's birth.,yes
+A05,What are the office attendance rules for employees who are still in probation?,They must work from the office 5 days a week.,02_Remote_Work_Policy.pdf,Employees in their probation period must work from the office 5 days a week.,yes
+A06,Is it allowed to work from another country under Work From Anywhere?,No. Working from another country is not allowed (WFA must be inside India).,02_Remote_Work_Policy.pdf,Working from another country is not allowed under this policy because of tax and legal reasons.,yes
+A07,How much internet reimbursement can I get each month?,"Up to Rs. 1,000 per month against a valid bill.",02_Remote_Work_Policy.pdf,"a monthly internet reimbursement of up to Rs. 1,000 is paid against a valid bill.",yes
+A08,What must I use when working remotely to connect to company systems?,The company VPN.,02_Remote_Work_Policy.pdf,Employees must connect through the company VPN when working remotely.,yes
+A09,How many previous passwords can I not reuse?,The last 5 passwords cannot be reused.,03_IT_Security_Policy.pdf,The last 5 passwords cannot be reused.,yes
+A10,After how many minutes of inactivity do laptop screens lock?,After 5 minutes.,03_IT_Security_Policy.pdf,Screens lock automatically after 5 minutes of inactivity.,yes
+A11,How quickly does the Security Operations Centre acknowledge an incident report?,Within 30 minutes.,03_IT_Security_Policy.pdf,The Security Operations Centre will acknowledge reports within 30 minutes.,yes
+A12,Within how many days of joining must the security awareness training be completed?,Within 30 days of joining.,03_IT_Security_Policy.pdf,Every employee must complete the annual security awareness training within 30 days of joining and once every year after that.,yes
+A13,What is the daily limit for meal claims on business duty?,Rs. 800 per day.,04_Expense_Reimbursement_Policy.pdf,Employees on business duty may claim meals up to Rs. 800 per day.,yes
+A14,"Who approves claims between Rs. 5,001 and Rs. 25,000?",The department head.,04_Expense_Reimbursement_Policy.pdf,"Claims between Rs. 5,001 and Rs. 25,000 need approval from the department head.",yes
+A15,When is an approved claim paid if it was approved after the 20th of the month?,In the following month.,04_Expense_Reimbursement_Policy.pdf,Claims approved after the 20th are paid in the following month.,yes
+A16,What is the monthly mobile phone claim limit for client-facing roles?,Up to Rs. 600 per month.,04_Expense_Reimbursement_Policy.pdf,Employees in client-facing roles may claim up to Rs. 600 per month for mobile phone bills.,yes
+A17,Which class can I fly on an international flight longer than 6 hours?,Premium Economy.,05_Travel_Policy.pdf,"any employee on an international flight longer than 6 hours, may fly Premium Economy.",yes
+A18,What is the hotel limit per night for international travel?,USD 180 per night.,05_Travel_Policy.pdf,and USD 180 for international travel.,yes
+A19,What is the per diem for domestic travel?,"Rs. 1,200 per day.",05_Travel_Policy.pdf,"A daily travel allowance (per diem) of Rs. 1,200 is paid for domestic travel",yes
+A20,What rate per kilometre is paid for using a personal car on business?,Rs. 12 per kilometre.,05_Travel_Policy.pdf,the company pays Rs. 12 per kilometre for cars,yes
+A21,How many days does the Ethics Committee have to respond to a report?,Within 10 working days.,06_Code_of_Conduct.pdf,The Ethics Committee reviews every report and responds within 10 working days.,yes
+A22,Within how many days must a conflict of interest be disclosed?,Within 15 days of the conflict arising.,06_Code_of_Conduct.pdf,Disclosure must be made through the Compliance Portal within 15 days of the conflict arising.,yes
+A23,"Within how many days must a gift worth Rs. 2,000 or more be reported?","Within 7 days, to the Compliance team (or the gift must be declined).",06_Code_of_Conduct.pdf,must be declined or reported to the Compliance team within 7 days.,yes
+A24,What time does orientation begin on the first day?,10:00 AM at the office reception.,07_Employee_Onboarding_Guide.pdf,Orientation begins at 10:00 AM at the office reception.,yes
+A25,For how long can probation be extended?,"Once, by up to 3 additional months.",07_Employee_Onboarding_Guide.pdf,It can be extended once by up to 3 additional months if performance expectations are not met.,yes
+A26,By what date must investment declarations be submitted?,By 15 January each year.,07_Employee_Onboarding_Guide.pdf,Employees must submit investment declarations for tax savings by 15 January each year.,yes
+A27,Who receives 360-degree feedback and from how many people?,"Employees at Senior Manager level and above, from at least 5 peers, direct reports and stakeholders.",08_Performance_Review_Policy.pdf,"Employees at Senior Manager level and above receive 360-degree feedback from at least 5 peers, direct reports and stakeholders.",yes
+A28,From which date do salary increments take effect?,From 1 May.,08_Performance_Review_Policy.pdf,Increments take effect from 1 May.,yes
+A29,How often is progress reviewed during a Performance Improvement Plan?,Every 2 weeks.,08_Performance_Review_Policy.pdf,The manager and HR review progress every 2 weeks.,yes
+A30,How long are employee records kept after they leave the company?,7 years.,09_Data_Privacy_Policy.pdf,Employee records are retained for 7 years after an employee leaves.,yes
+A31,Within what time must affected individuals be notified of a breach likely to cause harm?,Within 72 hours.,09_Data_Privacy_Policy.pdf,are notified within 72 hours when the breach is likely to cause harm.,yes
+A32,How much extra premium must I pay to add a parent to the health insurance?,"Rs. 8,000 per year per parent.",10_Employee_Benefits_Guide.pdf,"Parents can be added by paying an additional premium of Rs. 8,000 per year per parent.",yes
+U01,How many floors does the NovaTech office building have?,NOT_IN_DOCUMENTS,,,no
+U02,What is the maternity leave policy at Accenture?,NOT_IN_DOCUMENTS,,,no
+U03,Who is the chairman of the NovaTech board?,NOT_IN_DOCUMENTS,,,no
+U04,Does NovaTech provide relocation assistance for new joiners?,NOT_IN_DOCUMENTS,,,no
+U05,What is the annual bonus percentage for senior managers?,NOT_IN_DOCUMENTS,,,no
+U06,Which programming languages do NovaTech engineers use?,NOT_IN_DOCUMENTS,,,no
+U07,How do I claim reimbursement for a dental treatment?,NOT_IN_DOCUMENTS,,,no
+U08,What is the notice period for interns?,NOT_IN_DOCUMENTS,,,no

@@ -1,0 +1,241 @@
+question_id,question,question_type,first_relevant_rank,recall,rr,ndcg,top1_file,top1_section,expected_file,configuration,chunk_size,retriever
+Q01,How many days of paid annual leave do employees get each year?,keyword,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,6. Bereavement and Marriage Leave,01_Leave_Policy.pdf,Experiment 1,80,bm25
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 1,80,bm25
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 1,80,bm25
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 1,80,bm25
+Q05,Which days am I required to be in the office?,paraphrase,0,0.0,0.0,0.0,01_Leave_Policy.pdf,3. Sick Leave,02_Remote_Work_Policy.pdf,Experiment 1,80,bm25
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,3. Work From Anywhere (WFA),02_Remote_Work_Policy.pdf,Experiment 1,80,bm25
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,5. Home Office Allowance,02_Remote_Work_Policy.pdf,Experiment 1,80,bm25
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 1,80,bm25
+Q09,How long must a password be?,keyword,5,1.0,0.2,0.38685280723454163,06_Code_of_Conduct.pdf,5. Whistleblower Protection,03_IT_Security_Policy.pdf,Experiment 1,80,bm25
+Q10,Can I get my login codes by text message?,paraphrase,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,6. Bereavement and Marriage Leave,03_IT_Security_Policy.pdf,Experiment 1,80,bm25
+Q11,How fast must I report a lost laptop?,paraphrase,3,1.0,0.3333333333333333,0.5,06_Code_of_Conduct.pdf,5. Whistleblower Protection,03_IT_Security_Policy.pdf,Experiment 1,80,bm25
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 1,80,bm25
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 1,80,bm25
+Q14,Who approves claims of more than 25000 rupees?,number,5,1.0,0.2,0.38685280723454163,04_Expense_Reimbursement_Policy.pdf,5. Professional Development,04_Expense_Reimbursement_Policy.pdf,Experiment 1,80,bm25
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,5. Professional Development,04_Expense_Reimbursement_Policy.pdf,Experiment 1,80,bm25
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,3. Meals and Client Entertainment,04_Expense_Reimbursement_Policy.pdf,Experiment 1,80,bm25
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 1,80,bm25
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,4. Hotel Accommodation,05_Travel_Policy.pdf,Experiment 1,80,bm25
+Q19,How much does the company pay per kilometre if I use my own car?,number,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 1,80,bm25
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,2. Air Travel,05_Travel_Policy.pdf,Experiment 1,80,bm25
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 1,80,bm25
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 1,80,bm25
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,5. Whistleblower Protection,06_Code_of_Conduct.pdf,Experiment 1,80,bm25
+Q24,What are NovaTech's core values?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 1,80,bm25
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 1,80,bm25
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,5. Payroll,07_Employee_Onboarding_Guide.pdf,Experiment 1,80,bm25
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 1,80,bm25
+Q28,When are salaries credited?,paraphrase,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,5. Payroll,07_Employee_Onboarding_Guide.pdf,Experiment 1,80,bm25
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 1,80,bm25
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,5. Performance Improvement Plan,08_Performance_Review_Policy.pdf,Experiment 1,80,bm25
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,6. Promotions,08_Performance_Review_Policy.pdf,Experiment 1,80,bm25
+Q32,How often are performance reviews held?,paraphrase,3,1.0,0.3333333333333333,0.5,06_Code_of_Conduct.pdf,5. Whistleblower Protection,08_Performance_Review_Policy.pdf,Experiment 1,80,bm25
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 1,80,bm25
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 1,80,bm25
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 1,80,bm25
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 1,80,bm25
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 1,80,bm25
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 1,80,bm25
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 1,80,bm25
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,4. Wellness Programme,10_Employee_Benefits_Guide.pdf,Experiment 1,80,bm25
+Q01,How many days of paid annual leave do employees get each year?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 2,80,dense
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 2,80,dense
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 2,80,dense
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 2,80,dense
+Q05,Which days am I required to be in the office?,paraphrase,2,1.0,0.5,0.6309297535714575,07_Employee_Onboarding_Guide.pdf,2. First Day,02_Remote_Work_Policy.pdf,Experiment 2,80,dense
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,3. Work From Anywhere (WFA),02_Remote_Work_Policy.pdf,Experiment 2,80,dense
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,5. Home Office Allowance,02_Remote_Work_Policy.pdf,Experiment 2,80,dense
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 2,80,dense
+Q09,How long must a password be?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 2,80,dense
+Q10,Can I get my login codes by text message?,paraphrase,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 2,80,dense
+Q11,How fast must I report a lost laptop?,paraphrase,2,1.0,0.5,0.6309297535714575,03_IT_Security_Policy.pdf,4. Incident Reporting,03_IT_Security_Policy.pdf,Experiment 2,80,dense
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 2,80,dense
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 2,80,dense
+Q14,Who approves claims of more than 25000 rupees?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 2,80,dense
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,5. Professional Development,04_Expense_Reimbursement_Policy.pdf,Experiment 2,80,dense
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,3. Meals and Client Entertainment,04_Expense_Reimbursement_Policy.pdf,Experiment 2,80,dense
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 2,80,dense
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,4. Hotel Accommodation,05_Travel_Policy.pdf,Experiment 2,80,dense
+Q19,How much does the company pay per kilometre if I use my own car?,number,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 2,80,dense
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,2. Air Travel,05_Travel_Policy.pdf,Experiment 2,80,dense
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,2,1.0,0.5,0.6309297535714575,07_Employee_Onboarding_Guide.pdf,1. Before Day One,06_Code_of_Conduct.pdf,Experiment 2,80,dense
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 2,80,dense
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,5. Whistleblower Protection,06_Code_of_Conduct.pdf,Experiment 2,80,dense
+Q24,What are NovaTech's core values?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 2,80,dense
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 2,80,dense
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,5. Payroll,07_Employee_Onboarding_Guide.pdf,Experiment 2,80,dense
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 2,80,dense
+Q28,When are salaries credited?,paraphrase,2,1.0,0.5,0.6309297535714575,04_Expense_Reimbursement_Policy.pdf,1. General Rules,07_Employee_Onboarding_Guide.pdf,Experiment 2,80,dense
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 2,80,dense
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,5. Performance Improvement Plan,08_Performance_Review_Policy.pdf,Experiment 2,80,dense
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,6. Promotions,08_Performance_Review_Policy.pdf,Experiment 2,80,dense
+Q32,How often are performance reviews held?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 2,80,dense
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 2,80,dense
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 2,80,dense
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 2,80,dense
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 2,80,dense
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 2,80,dense
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 2,80,dense
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 2,80,dense
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,4. Wellness Programme,10_Employee_Benefits_Guide.pdf,Experiment 2,80,dense
+Q01,How many days of paid annual leave do employees get each year?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 3,80,hybrid
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 3,80,hybrid
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 3,80,hybrid
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 3,80,hybrid
+Q05,Which days am I required to be in the office?,paraphrase,2,1.0,0.5,0.6309297535714575,07_Employee_Onboarding_Guide.pdf,2. First Day,02_Remote_Work_Policy.pdf,Experiment 3,80,hybrid
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,3. Work From Anywhere (WFA),02_Remote_Work_Policy.pdf,Experiment 3,80,hybrid
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,5. Home Office Allowance,02_Remote_Work_Policy.pdf,Experiment 3,80,hybrid
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 3,80,hybrid
+Q09,How long must a password be?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 3,80,hybrid
+Q10,Can I get my login codes by text message?,paraphrase,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 3,80,hybrid
+Q11,How fast must I report a lost laptop?,paraphrase,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 3,80,hybrid
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 3,80,hybrid
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 3,80,hybrid
+Q14,Who approves claims of more than 25000 rupees?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 3,80,hybrid
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,5. Professional Development,04_Expense_Reimbursement_Policy.pdf,Experiment 3,80,hybrid
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,3. Meals and Client Entertainment,04_Expense_Reimbursement_Policy.pdf,Experiment 3,80,hybrid
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 3,80,hybrid
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,4. Hotel Accommodation,05_Travel_Policy.pdf,Experiment 3,80,hybrid
+Q19,How much does the company pay per kilometre if I use my own car?,number,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 3,80,hybrid
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,2. Air Travel,05_Travel_Policy.pdf,Experiment 3,80,hybrid
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 3,80,hybrid
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 3,80,hybrid
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,5. Whistleblower Protection,06_Code_of_Conduct.pdf,Experiment 3,80,hybrid
+Q24,What are NovaTech's core values?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 3,80,hybrid
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 3,80,hybrid
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,5. Payroll,07_Employee_Onboarding_Guide.pdf,Experiment 3,80,hybrid
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 3,80,hybrid
+Q28,When are salaries credited?,paraphrase,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,5. Payroll,07_Employee_Onboarding_Guide.pdf,Experiment 3,80,hybrid
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 3,80,hybrid
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,5. Performance Improvement Plan,08_Performance_Review_Policy.pdf,Experiment 3,80,hybrid
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,6. Promotions,08_Performance_Review_Policy.pdf,Experiment 3,80,hybrid
+Q32,How often are performance reviews held?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 3,80,hybrid
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 3,80,hybrid
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 3,80,hybrid
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 3,80,hybrid
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,4. Data Subject Requests,09_Data_Privacy_Policy.pdf,Experiment 3,80,hybrid
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 3,80,hybrid
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 3,80,hybrid
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 3,80,hybrid
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,4. Wellness Programme,10_Employee_Benefits_Guide.pdf,Experiment 3,80,hybrid
+Q01,How many days of paid annual leave do employees get each year?,keyword,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 4,160,bm25
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 4,160,bm25
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 4,160,bm25
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 4,160,bm25
+Q05,Which days am I required to be in the office?,paraphrase,4,1.0,0.25,0.43067655807339306,01_Leave_Policy.pdf,3. Sick Leave,02_Remote_Work_Policy.pdf,Experiment 4,160,bm25
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 4,160,bm25
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 4,160,bm25
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 4,160,bm25
+Q09,How long must a password be?,keyword,2,1.0,0.5,0.6309297535714575,06_Code_of_Conduct.pdf,1. Our Values,03_IT_Security_Policy.pdf,Experiment 4,160,bm25
+Q10,Can I get my login codes by text message?,paraphrase,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,1. Purpose and Scope,03_IT_Security_Policy.pdf,Experiment 4,160,bm25
+Q11,How fast must I report a lost laptop?,paraphrase,2,1.0,0.5,0.6309297535714575,06_Code_of_Conduct.pdf,1. Our Values,03_IT_Security_Policy.pdf,Experiment 4,160,bm25
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 4,160,bm25
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 4,160,bm25
+Q14,Who approves claims of more than 25000 rupees?,number,3,1.0,0.3333333333333333,0.5,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 4,160,bm25
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 4,160,bm25
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 4,160,bm25
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 4,160,bm25
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 4,160,bm25
+Q19,How much does the company pay per kilometre if I use my own car?,number,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,1. Purpose and Scope,05_Travel_Policy.pdf,Experiment 4,160,bm25
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 4,160,bm25
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 4,160,bm25
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 4,160,bm25
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 4,160,bm25
+Q24,What are NovaTech's core values?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 4,160,bm25
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 4,160,bm25
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 4,160,bm25
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 4,160,bm25
+Q28,When are salaries credited?,paraphrase,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 4,160,bm25
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 4,160,bm25
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 4,160,bm25
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 4,160,bm25
+Q32,How often are performance reviews held?,paraphrase,3,1.0,0.3333333333333333,0.5,06_Code_of_Conduct.pdf,1. Our Values,08_Performance_Review_Policy.pdf,Experiment 4,160,bm25
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 4,160,bm25
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 4,160,bm25
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 4,160,bm25
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 4,160,bm25
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 4,160,bm25
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 4,160,bm25
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 4,160,bm25
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 4,160,bm25
+Q01,How many days of paid annual leave do employees get each year?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 5,160,dense
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 5,160,dense
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 5,160,dense
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 5,160,dense
+Q05,Which days am I required to be in the office?,paraphrase,2,1.0,0.5,0.6309297535714575,07_Employee_Onboarding_Guide.pdf,1. Before Day One,02_Remote_Work_Policy.pdf,Experiment 5,160,dense
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 5,160,dense
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 5,160,dense
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 5,160,dense
+Q09,How long must a password be?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 5,160,dense
+Q10,Can I get my login codes by text message?,paraphrase,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 5,160,dense
+Q11,How fast must I report a lost laptop?,paraphrase,4,1.0,0.25,0.43067655807339306,09_Data_Privacy_Policy.pdf,1. Purpose,03_IT_Security_Policy.pdf,Experiment 5,160,dense
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 5,160,dense
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 5,160,dense
+Q14,Who approves claims of more than 25000 rupees?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 5,160,dense
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 5,160,dense
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 5,160,dense
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,2,1.0,0.5,0.6309297535714575,07_Employee_Onboarding_Guide.pdf,1. Before Day One,05_Travel_Policy.pdf,Experiment 5,160,dense
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 5,160,dense
+Q19,How much does the company pay per kilometre if I use my own car?,number,2,1.0,0.5,0.6309297535714575,04_Expense_Reimbursement_Policy.pdf,1. General Rules,05_Travel_Policy.pdf,Experiment 5,160,dense
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 5,160,dense
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 5,160,dense
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 5,160,dense
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 5,160,dense
+Q24,What are NovaTech's core values?,keyword,2,1.0,0.5,0.6309297535714575,08_Performance_Review_Policy.pdf,1. Review Cycle,06_Code_of_Conduct.pdf,Experiment 5,160,dense
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 5,160,dense
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 5,160,dense
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 5,160,dense
+Q28,When are salaries credited?,paraphrase,0,0.0,0.0,0.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,07_Employee_Onboarding_Guide.pdf,Experiment 5,160,dense
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 5,160,dense
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 5,160,dense
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 5,160,dense
+Q32,How often are performance reviews held?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 5,160,dense
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 5,160,dense
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 5,160,dense
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 5,160,dense
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 5,160,dense
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 5,160,dense
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 5,160,dense
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 5,160,dense
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 5,160,dense
+Q01,How many days of paid annual leave do employees get each year?,keyword,2,1.0,0.5,0.6309297535714575,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 6,160,hybrid
+Q02,What is the maximum number of unused leave days I can carry forward?,number,1,1.0,1.0,1.0,01_Leave_Policy.pdf,1. Purpose and Scope,01_Leave_Policy.pdf,Experiment 6,160,hybrid
+Q03,Do I need a doctor's note if I am ill for three days?,paraphrase,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 6,160,hybrid
+Q04,How long is maternity leave?,keyword,1,1.0,1.0,1.0,01_Leave_Policy.pdf,3. Sick Leave,01_Leave_Policy.pdf,Experiment 6,160,hybrid
+Q05,Which days am I required to be in the office?,paraphrase,3,1.0,0.3333333333333333,0.5,07_Employee_Onboarding_Guide.pdf,1. Before Day One,02_Remote_Work_Policy.pdf,Experiment 6,160,hybrid
+Q06,How many days per year can I work from another city?,paraphrase,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 6,160,hybrid
+Q07,How much is the home office setup allowance?,number,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 6,160,hybrid
+Q08,What are the core working hours?,keyword,1,1.0,1.0,1.0,02_Remote_Work_Policy.pdf,1. Work Models,02_Remote_Work_Policy.pdf,Experiment 6,160,hybrid
+Q09,How long must a password be?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 6,160,hybrid
+Q10,Can I get my login codes by text message?,paraphrase,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 6,160,hybrid
+Q11,How fast must I report a lost laptop?,paraphrase,3,1.0,0.3333333333333333,0.5,07_Employee_Onboarding_Guide.pdf,1. Before Day One,03_IT_Security_Policy.pdf,Experiment 6,160,hybrid
+Q12,How often do passwords have to be changed?,keyword,1,1.0,1.0,1.0,03_IT_Security_Policy.pdf,1. Passwords,03_IT_Security_Policy.pdf,Experiment 6,160,hybrid
+Q13,Within how many days must I submit an expense claim?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 6,160,hybrid
+Q14,Who approves claims of more than 25000 rupees?,number,2,1.0,0.5,0.6309297535714575,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 6,160,hybrid
+Q15,What is the yearly learning budget?,number,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 6,160,hybrid
+Q16,Can I claim alcohol with a client dinner?,paraphrase,1,1.0,1.0,1.0,04_Expense_Reimbursement_Policy.pdf,1. General Rules,04_Expense_Reimbursement_Policy.pdf,Experiment 6,160,hybrid
+Q17,How many days before a foreign trip must I raise the travel request?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 6,160,hybrid
+Q18,What is the hotel limit per night in Mumbai?,keyword,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 6,160,hybrid
+Q19,How much does the company pay per kilometre if I use my own car?,number,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 6,160,hybrid
+Q20,Can I fly business class?,paraphrase,1,1.0,1.0,1.0,05_Travel_Policy.pdf,1. Booking Travel,05_Travel_Policy.pdf,Experiment 6,160,hybrid
+Q21,How long does the ICC have to finish a harassment inquiry?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 6,160,hybrid
+Q22,What is the maximum value of a gift I can accept from a vendor?,number,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 6,160,hybrid
+Q23,How can I report unethical behaviour without giving my name?,paraphrase,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 6,160,hybrid
+Q24,What are NovaTech's core values?,keyword,1,1.0,1.0,1.0,06_Code_of_Conduct.pdf,1. Our Values,06_Code_of_Conduct.pdf,Experiment 6,160,hybrid
+Q25,What is the notice period after confirmation for a regular employee?,number,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 6,160,hybrid
+Q26,Who do I contact for payroll questions?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 6,160,hybrid
+Q27,How long is the probation period?,keyword,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 6,160,hybrid
+Q28,When are salaries credited?,paraphrase,1,1.0,1.0,1.0,07_Employee_Onboarding_Guide.pdf,4. Probation,07_Employee_Onboarding_Guide.pdf,Experiment 6,160,hybrid
+Q29,What increment does a rating of 4 give?,number,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 6,160,hybrid
+Q30,How long is a performance improvement plan?,keyword,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 6,160,hybrid
+Q31,How many months must I be in my role to be eligible for promotion?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 6,160,hybrid
+Q32,How often are performance reviews held?,paraphrase,1,1.0,1.0,1.0,08_Performance_Review_Policy.pdf,1. Review Cycle,08_Performance_Review_Policy.pdf,Experiment 6,160,hybrid
+Q33,How long is customer data kept after the contract ends?,paraphrase,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 6,160,hybrid
+Q34,How quickly must a data breach be reported to the Data Protection Officer?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 6,160,hybrid
+Q35,How long is CCTV footage stored?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 6,160,hybrid
+Q36,Who handles requests to delete my personal data?,keyword,1,1.0,1.0,1.0,09_Data_Privacy_Policy.pdf,1. Purpose,09_Data_Privacy_Policy.pdf,Experiment 6,160,hybrid
+Q37,How much is the health insurance cover?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 6,160,hybrid
+Q38,What is the referral bonus for a regular hire?,number,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 6,160,hybrid
+Q39,How much does the company contribute to provident fund?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 6,160,hybrid
+Q40,Is there a counselling service for employees?,paraphrase,1,1.0,1.0,1.0,10_Employee_Benefits_Guide.pdf,1. Health Insurance,10_Employee_Benefits_Guide.pdf,Experiment 6,160,hybrid

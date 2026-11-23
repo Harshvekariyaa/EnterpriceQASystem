@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "threshold": 0.5,
+  "split_sizes": {
+    "train": 186,
+    "validation": 39,
+    "test": 39
+  },
+  "baseline": {
+    "model": "LogisticRegression",
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "tuning": "GridSearchCV (StratifiedGroupKFold)",
+    "grid": {
+      "C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "class_weight": [
+        null,
+        "balanced"
+      ]
+    },
+    "cv_folds": 5,
+    "best_params": {
+      "C": 0.01,
+      "class_weight": "balanced"
+    },
+    "cv_best_macro_f1": 0.877
+  },
+  "finetune": {
+    "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "epochs": 5,
+    "batch_size": 16,
+    "learning_rate": 5e-05,
+    "max_length": 64
+  },
+  "finetune_grid": null,
+  "chosen": "finetuned_minilm",
+  "library_versions": {
+    "scikit-learn": "1.9.1",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.24.0"
+  }
+}
